@@ -63,14 +63,6 @@ flutter run
 
 ---
 
-## 📸 Screenshots
-
-| Flashcard Quiz        | Add Flashcard         | Edit Flashcard         |
-|-----------------------|------------------------|-------------------------|
-| ![quiz](assets/quiz.png) | ![add](assets/add.png) | ![edit](assets/edit.png) |
-
----
-
 ## ⚙️ State Management
 
 This app uses [`Provider`](https://pub.dev/packages/provider) to manage app-wide state and update UI reactively.

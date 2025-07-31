@@ -1,16 +1,34 @@
-# flashcard
+# 📚 FlashCard Quiz App
 
-A new Flutter project.
+A simple and elegant Flutter app to help you create, review, and manage flashcards. Perfect for quick study sessions and boosting memory retention!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔄 Toggle between **question** and **answer**
+- ➕ Add new flashcards
+- 📝 Edit existing flashcards
+- 🗑️ Delete flashcards
+- 💾 Data persistence using **SharedPreferences**
+- 🎨 Custom clean UI with light theme
+- 🚀 Built using **Flutter** and **Provider** for state management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+lib/
+├── main.dart # App entry point
+├── theme/
+│ └── theme.dart # Custom app theme
+├── provider/
+│ └── Flashcard_Controller.dart # Flashcard controller (logic & storage)
+├── views/
+│ ├── Flashcard_Quiz_Screen.dart # Main quiz interface
+│ └── curd/
+│ ├── add_Flashcrads.dart # Add screen
+│ ├── delete_Flashcard.dart # Delete screen
+│ └── edited_Flashcards.dart # Edit screen
+└── widgets/
+└── Flashcard_Widget.dart # Flashcard model
